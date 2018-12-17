@@ -1,4 +1,4 @@
-# Portfolio HTML/CSS
+# TP HTML/CSS
 
 * Nom : SEGUIN
 * Prénom : Ghislain
