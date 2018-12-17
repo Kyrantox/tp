@@ -1,2 +1,284 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Tp bootstrap</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">
+   <script>$('.alert').alert()</script>
+</head>
+
+<body>
+<h1>Les alertes</h1>
+  <h2>Message important tout propre</h2>
+  <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Je vous ai compris!</h4>
+    <p> Mais bon c'est pas la BBC ici.</p>
+    <hr>
+    <p class="mb-0">Du coup bah voilà quoi ....</p>
+  </div>
+
+  <br/>
+  <h2>Plein de pitites alerte</h2>
+  <div class="alert alert-primary" role="alert">
+  La galère <a href="#" class="alert-link">truc jolie</a>. c'est drôle.
+</div>
+<div class="alert alert-secondary" role="alert">
+  Bon après c'est pareil <a href="#" class="alert-link">du coup osef</a>. et je laisse le reste.
+</div>
+<div class="alert alert-success" role="alert">
+  A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-danger" role="alert">
+  A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-warning" role="alert">
+  A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-info" role="alert">
+  A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-light" role="alert">
+  A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-dark" role="alert">
+  A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+
+<br/>
+<h2>Encore une alerte -_-</h2>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Bon c'est pas beau mais c'est très bien comme ça</strong> Je vois flou à force de copier collé
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<br/><br/>
+<h1>On fait des badges</h1>
+<h1>ça va être décroissant <span class="badge badge-secondary">je sais pas à quoi ça sert</span></h1>
+<h2>Je te l'avais dis <span class="badge badge-secondary">Et en plus c'est moche</span></h2>
+<h3>Example heading <span class="badge badge-secondary">New</span></h3>
+<h4>Example heading <span class="badge badge-secondary">New</span></h4>
+<h5>Example heading <span class="badge badge-secondary">New</span></h5>
+<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+
+<br/>
+<h2>Des notif pas faites main, et ouais, que du skill</h2>
+
+<button type="button" class="btn btn-primary">
+  Je suis une notification <span class="badge badge-light">4</span>
+</button>
+
+<button type="button" class="btn btn-primary">
+  Et clique stp <span class="badge badge-light">9</span>
+  <span class="sr-only">Insérer texte osef</span>
+</button>
+
+<h2>Et maintenant, les rainbow button</h2>
+
+<span class="badge badge-primary">le numero 1</span>
+<span class="badge badge-secondary">et le 2</span>
+<span class="badge badge-success">Et puis je crois que t'as compris</span>
+<span class="badge badge-danger">Danger</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-info">Info</span>
+<span class="badge badge-light">Light</span>
+<span class="badge badge-dark">Dark</span>
+
+<h2>Bon la même mais en rond</h2>
+<span class="badge badge-pill badge-primary">Primary</span>
+<span class="badge badge-pill badge-secondary">Secondary</span>
+<span class="badge badge-pill badge-success">Success</span>
+<span class="badge badge-pill badge-danger">Danger</span>
+<span class="badge badge-pill badge-warning">Warning</span>
+<span class="badge badge-pill badge-info">Info</span>
+<span class="badge badge-pill badge-light">Light</span>
+<span class="badge badge-pill badge-dark">Dark</span>
+
+<h2>Et puis la on peux même cliquer</h2>
+<a href="#" class="badge badge-primary">Primary</a>
+<a href="#" class="badge badge-secondary">Secondary</a>
+<a href="#" class="badge badge-success">Success</a>
+<a href="#" class="badge badge-danger">Danger</a>
+<a href="#" class="badge badge-warning">Warning</a>
+<a href="#" class="badge badge-info">Info</a>
+<a href="#" class="badge badge-light">Light</a>
+<a href="#" class="badge badge-dark">Dark</a>
+
+<br/><br/>
+
+<h1>et la c'est du Breadcrump, (je sais pas ce que ça veut dire mais t'inquiète)</h1>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item active" aria-current="page">Home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">plus home</li>
+  </ol>
+</nav>
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">plus home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">toujours plus home</li>
+  </ol>
+</nav>
+
+<br/><br/>
+
+<h1>Et maintenant on fait des boutons de ouf gueudin</h1>
+<h2>Bon, t'a des yeux, c'est de boutons</h2>
+<button type="button" class="btn btn-primary">Bon je l'ai déjà</button>
+<button type="button" class="btn btn-secondary">fait une fois</button>
+<button type="button" class="btn btn-success">pas deux hein?</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<h2>Attention la c'est des tags, c'est passionant hein (Je sais que non mais fait semblant stp)</h2>
+<a class="btn btn-primary" href="#" role="button">Bon faut juste écrire quoi</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="C'est pareil pour là">
+<input class="btn btn-primary" type="submit" value="Submit">
+<input class="btn btn-primary" type="reset" value="Reset">
+
+<h2> bon on fait encre des boutons mais dans un style différents</h2>
+<button type="button" class="btn btn-outline-primary">Bon </button>
+<button type="button" class="btn btn-outline-secondary">encore</button>
+<button type="button" class="btn btn-outline-success">le même</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+
+<h2>Ici on va faire des boutons de différentes tailles</h2>
+<button type="button" class="btn btn-primary btn-lg">Gros boutton</button>
+<button type="button" class="btn btn-secondary btn-lg">et le deuxième</button>
+<button type="button" class="btn btn-primary btn-sm">Le pitit bouton</button>
+<button type="button" class="btn btn-secondary btn-sm">et ... lui ...</button>
+
+<h2>SUPEEEERR BOUTTOOOOONNNNNN</h2>
+<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+
+<h2> d'autre bouton</h2>
+
+<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LE bouton</a>
+<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">et l'autre</a>
+
+<h2>les même en plus claire</h2>
+<button type="button" class="btn btn-lg btn-primary" disabled>LE bouton</button>
+<button type="button" class="btn btn-secondary btn-lg" disabled>et l'autre</button>
+
+<h2>Et c'est même cliquable ici</h2>
+
+<a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">LE bouton</a>
+<a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">et l'autre</a>
+
+<h2> Bouton de la solitude</h2>
+<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Tout seul
+</button>
+
+<h2> et ici on calle une petite checkbox</h2>
+<div class="btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="checkbox" checked autocomplete="off"> je check
+  </label>
+</div>
+
+<h2> On en met plusieurs</h2>
+
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> un autre
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> encore un
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> et puis un autre
+  </label>
+</div>
+
+<h1>Les boutons de groupe</h1>
+
+<h2>des boutons groupés</h2>
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary">ici</button>
+  <button type="button" class="btn btn-secondary">ou là</button>
+  <button type="button" class="btn btn-secondary">peut être là</button>
+</div>
+
+<h2>On met das espaces pour faire des groupes</h2>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary">4</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="Second group">
+    <button type="button" class="btn btn-secondary">5</button>
+    <button type="button" class="btn btn-secondary">6</button>
+    <button type="button" class="btn btn-secondary">7</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Third group">
+    <button type="button" class="btn btn-secondary">8</button>
+  </div>
+</div>
+
+<br/><br/>
+<h1> Maintenant on passe au carte</h1>
+<h2>on fait un exemlpe de carte simple</h2>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>
+  </div>
+</div>
+
+<h2>on fait un exemlpe de carte complète</h2>
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="https://media.comicbook.com/2018/06/pop-team-epic-1116279-1280x0.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Pop team epic</h5>
+    <p class="card-text">De bonne grosse barre.</p>
+    <a href="#" class="btn btn-primary">Regarde le</a>
+  </div>
+</div>
+
+<h2> un type de carte un peu différent</h2>
+<div class="card">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Faut un titre</h5>
+    <p class="card-text">Et j'ai pas d'idée</p>
+    <a href="#" class="btn btn-primary">Cliquez pas svp</a>
+  </div>
+</div>
+
+ </body>
+
+</html>
