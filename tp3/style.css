@@ -10,3 +10,9 @@ h1
 {
     font-weight: bold;
 }
+
+#diagramme
+{
+  height: 1900px;
+  width: 800px;
+}
