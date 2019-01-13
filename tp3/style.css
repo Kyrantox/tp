@@ -16,3 +16,24 @@ h1
   height: 1900px;
   width: 800px;
 }
+
+.d {
+    margin-top: 4%;
+    /* background: red; */
+    height: 115%;
+    width: 80%;
+    position: absolute;
+    z-index: 2;
+}
+
+nav{
+  background-color: lightgrey;
+}
+
+a{
+  color:black;
+}
+
+#gras{
+  font-weight: bold;
+}
